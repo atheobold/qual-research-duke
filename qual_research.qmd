@@ -1,0 +1,40 @@
+---
+title: "Researching Data Science Education: Perspectives on Qualitative Research Methods"
+author: "Dr. Allison Theobold"
+format: 
+  revealjs:
+    logo: images/cp_hex_logo.png
+    theme: night
+    embed-resources: true
+    standalone: true
+editor: visual
+bibliography: references.bib
+---
+
+##  {background-color="#B6CADA"}
+
+::: {style="font-size: 3.5em; color: #000000;"}
+*Investigating Student Learning through Code*
+:::
+
+##
+
+::: {style="font-size: 1.75em; color: #e28743;"}
+How can we "distinguish merely interesting learning from effective learning" [@wiggins]?
+:::
+
+##  {background-color="#B6CADA"}
+
+::: {style="font-size: 4em; color: #000000;"}
+*Investigating Power in the Classroom*
+:::
+
+## 
+
+::: {style="font-size: 1.75em; color: #e28743;"}
+"The more one talks and the less one listens, the more likely it is that
+one's viewpoint will function as if it were community consensus even if
+it is not" [@wordslut]. 
+:::
+
+## References
