@@ -33,6 +33,31 @@ Today's Layout
 
 4.  Implications for oral assessments
 
+. . .
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="60%"}
+</br>
+
+<http://bit.ly/qual-research-duke>
+:::
+
+::: {.column width="15%"}
+:::
+
+::: {.column width="20%"}
+```{r}
+#| out-width: 65%
+knitr::include_graphics("images/bitly_qr_code.jpeg")
+```
+
+:::
+:::
+
+
 ## 
 
 ::: {style="font-size: 3em; color: #FFFFFF;"}
