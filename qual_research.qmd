@@ -11,13 +11,53 @@ editor: visual
 bibliography: references.bib
 ---
 
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Today's Layout
+:::
+
+. . .
+
+</br>
+
+1.  Some background on qualitative research
+
+. . .
+
+2.  Qualitative investigations into student's code
+
+. . .
+
+3.  Qualitative investigations into group work
+
+. . .
+
+4.  Implications for oral assessments
+
+## 
+
+::: {style="font-size: 3em; color: #FFFFFF;"}
+A bit about me...
+:::
+
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 3.5em; color: #000000;"}
 *Investigating Student Learning through Code*
 :::
 
-##
+## 
+
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Warm-up (90 seconds)
+:::
+
+. . .
+
+</br>
+
+Name [**one**]{.underline} thing you look for in someone's code to determine if they are a "good" programmer.
+
+## 
 
 ::: {style="font-size: 1.75em; color: #e28743;"}
 How can we "distinguish merely interesting learning from effective learning" [@wiggins]?
@@ -31,10 +71,40 @@ How can we "distinguish merely interesting learning from effective learning" [@w
 
 ## 
 
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Another Warm-up 🙃
+:::
+
+. . .
+
+</br>
+
+Choose [**one**]{.underline} word that summarizes how you felt the last time you collaborated in a group.
+
+## 
+
 ::: {style="font-size: 1.75em; color: #e28743;"}
-"The more one talks and the less one listens, the more likely it is that
-one's viewpoint will function as if it were community consensus even if
-it is not" [@wordslut]. 
+"The more one talks and the less one listens, the more likely it is that one's viewpoint will function as if it were community consensus even if it is not" [@wordslut].
+:::
+
+## Example Student Conversation
+
+## Discorse Analysis
+
+-   Gee perspective
+
+-   Influence framework perspective
+
+## How Methods can be used
+
+-   verbs for actions[@theobold-discourse]
+
+-   promotions / demotions
+
+##  {background-color="#B6CADA"}
+
+::: {style="font-size: 3em; color: #000000;"}
+What can group work teach us about oral exams?[@theobold2021]
 :::
 
 ## References
