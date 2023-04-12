@@ -53,10 +53,8 @@ Today's Layout
 #| out-width: 65%
 knitr::include_graphics("images/bitly_qr_code.jpeg")
 ```
-
 :::
 :::
-
 
 ## 
 
@@ -64,11 +62,114 @@ knitr::include_graphics("images/bitly_qr_code.jpeg")
 A bit about me...
 :::
 
+
 ##  {background-color="#B6CADA"}
 
-::: {style="font-size: 3.5em; color: #000000;"}
-*Investigating Student Learning through Code*
+::: {style="font-size: 4em; color: #000000;"}
+Qualitative Research
 :::
+
+::: columns
+::: {.column width="60%"}
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="25%"}
+```{r}
+knitr::include_graphics("images/qual-research.png")
+```
+:::
+:::
+
+## 
+
+::: {style="color: #e28743;"}
+"Qualitative researchers strive to *understand the meaning* people have constructed about their world and their experiences." [@merriam]
+:::
+
+</br>
+</br>
+
+::: {style="color: #abdbe3;"}
+"Qualitative research is an effort to understand situations in their uniqueness as part of a particular context and the interactions there. This understanding is an end in itself." [@patton]
+:::
+
+
+##
+
+::: {style="font-size: 2em; color: #FFFFFF;"}
+What are the principles of qualitative research?
+:::
+
+. . .
+
+- The researcher is the primary instrument for data collection and data analysis
+
+- The analysis seeks to find emerging themes 
+
+- The product of a qualitative study is richly descriptive
+
+##
+
+::: {style="font-size: 2em; color: #FFFFFF;"}
+How might this look?
+:::
+
+</br>
+
+::: columns
+::: {.column width="30%"}
+**Sample Selection**
+
+Select a sample from which the most can be learned!
+
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="30%"}
+**Data Collection**
+
+Major sources of data -- interviews, observations, documents
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="30%"}
+**Data Analysis**
+
+<!-- Simultaneous with data collection! -->
+Compares units of data to find common patterns across the data
+:::
+:::
+
+
+##  {background-color="#B6CADA"}
+
+::: {style="font-size: 3em; color: #000000;"}
+Investigating Student Learning through Code
+:::
+
+::: columns
+::: {.column width="60%"}
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="25%"}
+```{r}
+knitr::include_graphics("images/code-design.png")
+```
+:::
+:::
+
 
 ## 
 
@@ -80,7 +181,21 @@ Warm-up (90 seconds)
 
 </br>
 
+::: columns
+::: {.column width="40%"}
 Name [**one**]{.underline} thing you look for in someone's code to determine if they are a "good" programmer.
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+```{r}
+knitr::include_graphics("images/clean-code.png")
+```
+:::
+:::
+
 
 ## 
 
@@ -88,10 +203,30 @@ Name [**one**]{.underline} thing you look for in someone's code to determine if 
 How can we "distinguish merely interesting learning from effective learning" [@wiggins]?
 :::
 
+##
+
+<!-- Nolan & Temple-Lang's statistical computing framework is to data science education research what Deborah Ball's "egg" is to Mathematics Education research -->
+
 ##  {background-color="#B6CADA"}
 
-::: {style="font-size: 4em; color: #000000;"}
-*Investigating Power in the Classroom*
+::: {style="font-size: 3em; color: #000000;"}
+Investigating Power in the Classroom
+:::
+
+::: columns
+::: {.column width="60%"}
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="25%"}
+```{r}
+#| out-width: 80%
+knitr::include_graphics("images/talking.png")
+```
+:::
 :::
 
 ## 
@@ -104,7 +239,7 @@ Another Warm-up 🙃
 
 </br>
 
-Choose [**one**]{.underline} word that summarizes how you felt the last time you collaborated in a group.
+Choose [**one**]{.underline} word that summarizes how *you* felt the last time you collaborated in a group.
 
 ## 
 
