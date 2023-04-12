@@ -126,11 +126,28 @@ What are the principles of qualitative research?
 
 . . .
 
+::: columns
+::: {.column width="55%"}
+
+::: {style="font-size: 0.85em;"}
+</br>
+
 - The researcher is the primary instrument for data collection and data analysis
 
 - The analysis seeks to find emerging themes 
 
 - The product of a qualitative study is richly descriptive
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+![](images/qual_words.png)
+:::
+:::
+
 
 ##
 
@@ -287,4 +304,15 @@ Choose [**one**]{.underline} word that summarizes how *you* felt the last time y
 What can group work teach us about oral exams?[@theobold2021]
 :::
 
+## 
+
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Questions?
+:::
+
+```{r}
+#| fig-align: center
+#| out-width: 50%
+knitr::include_graphics("images/conversation.jpg")
+```
 ## References
