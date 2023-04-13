@@ -40,7 +40,6 @@ Today's Layout
 :::
 
 ::: {.column width="60%"}
-
 <http://bit.ly/qual-research-duke>
 :::
 
@@ -63,12 +62,10 @@ A bit about me...
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="font-size: 0.75em; color: #FFFFFF;"}
 Ph.D. in Statistics from Montana State University
 
-> "Supporting Data-Intensive Environmental Science Research: Data Science Skills for Scientific Practitioners of Statistics" 
-
+> "Supporting Data-Intensive Environmental Science Research: Data Science Skills for Scientific Practitioners of Statistics"
 :::
 :::
 
@@ -91,7 +88,6 @@ Qualitative Research
 
 ::: columns
 ::: {.column width="60%"}
-
 :::
 
 ::: {.column width="5%"}
@@ -106,19 +102,17 @@ knitr::include_graphics("images/qual-research.png")
 
 ## 
 
-::: {style="color: #e28743;"}
+::: {style="font-size: 1.25em; color: #e28743;"}
 "Qualitative researchers strive to *understand the meaning* people have constructed about their world and their experiences." [@merriam]
 :::
 
-</br>
-</br>
+</br> </br>
 
-::: {style="color: #abdbe3;"}
+::: {style="font-size: 1.25em; color: #abdbe3;"}
 "Qualitative research is an effort to understand situations in their uniqueness as part of a particular context and the interactions there. This understanding is an end in itself." [@patton]
 :::
 
-
-##
+## 
 
 ::: {style="font-size: 2em; color: #FFFFFF;"}
 What are the principles of qualitative research?
@@ -128,15 +122,14 @@ What are the principles of qualitative research?
 
 ::: columns
 ::: {.column width="55%"}
-
 ::: {style="font-size: 0.85em;"}
 </br>
 
-- The researcher is the primary instrument for data collection and data analysis
+-   The researcher is the primary instrument for data collection and data analysis
 
-- The analysis seeks to find emerging themes 
+-   The analysis seeks to find emerging themes
 
-- The product of a qualitative study is richly descriptive
+-   The product of a qualitative study is richly descriptive
 :::
 :::
 
@@ -148,8 +141,7 @@ What are the principles of qualitative research?
 :::
 :::
 
-
-##
+## 
 
 ::: {style="font-size: 2em; color: #FFFFFF;"}
 How might this look?
@@ -162,7 +154,6 @@ How might this look?
 **Sample Selection**
 
 Select a sample from which the most can be learned!
-
 :::
 
 ::: {.column width="2%"}
@@ -181,10 +172,10 @@ Major sources of data -- interviews, observations, documents
 **Data Analysis**
 
 <!-- Simultaneous with data collection! -->
+
 Compares units of data to find common patterns across the data
 :::
 :::
-
 
 ##  {background-color="#B6CADA"}
 
@@ -194,7 +185,6 @@ Investigating Student Learning through Code
 
 ::: columns
 ::: {.column width="60%"}
-
 :::
 
 ::: {.column width="5%"}
@@ -207,11 +197,65 @@ knitr::include_graphics("images/code-design.png")
 :::
 :::
 
-
 ## 
 
 ::: {style="font-size: 3em; color: #FFFFFF;"}
 Warm-up (90 seconds)
+:::
+
+</br>
+
+<center>
+
+::: {style="font-size: 1.5em; color: #e28743;"}
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: false
+RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
+```
+:::
+
+</center>
+
+. . .
+
+</br>
+
+::: {style="font-size: 1.5em; color: #e28743;"}
+How would you describe the action(s) being taken in this statement?
+:::
+
+## 
+
+::: {style="font-size: 2.5em; color: #FFFFFF;"}
+A framework for analyzing student's code
+:::
+
+::: {style="font-size: 0.5em;"}
+|     | Text Surface    |   Program Execution   |   Function   |
+|:-----|-----|-----|-----|
+| **Macrostructure**    | Understanding the overall structure of the program    |   Understanding the "algorithm" of the program    | Understanding the goal / purpose of the program (in its context)    |
+| **Relations**   | References between blocks, e.g., method calls, object creation    | Sequence of method calls, object sequence diagrams   | Understanding how sub-goals are related to goals, how function is achieved by subfunctions    |
+| **Blocks**    | Regions of interest (ROI) that syntactically or semantically build a unit    |   Operation of a block, a method, or a ROI (as a sequence of statements)   |   Function of a block, may be seen as a sub-goal    |
+| **Atoms**   | Language elements   |   Operation of a statement    |   Function of a statement, only understandable in context   |
+:::
+
+##
+
+::: {style="font-size: 2.5em; color: #FFFFFF;"}
+Coding student's code
+:::
+
+</br>
+
+::: {style="font-size: 1.25em;"}
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: false
+RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
+```
 :::
 
 . . .
@@ -219,30 +263,51 @@ Warm-up (90 seconds)
 </br>
 
 ::: columns
-::: {.column width="40%"}
-Name [**one**]{.underline} thing you look for in someone's code to determine if they are a "good" programmer.
+::: {.column width="45%"}
+**Descriptive Code**
+
+::: {style="font-size: 0.95em;"}
+> "Filters a vector of values using extraction operator, based on an equality relation with a variable selected from dataframe using `$` operator"
+
+:::
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="55%"}
-```{r}
-knitr::include_graphics("images/clean-code.png")
-```
+::: {.column width="45%"}
+**In-vivo Code**
+
+::: {style="font-size: 0.95em;"}
+
+> "Uses `[ ]` and `==` to filter vector, uses `$` to select variable"
+
+:::
+
 :::
 :::
+
+## 
+
+::: {style="font-size: 2.5em; color: #FFFFFF;"}
+How could this be used?
+:::
+
+
+<!-- Nolan & Temple-Lang's statistical computing framework is to data science education research what Deborah Ball's "egg" is to Mathematics Education research -->
 
 
 ## 
 
-::: {style="font-size: 1.75em; color: #e28743;"}
-How can we "distinguish merely interesting learning from effective learning" [@wiggins]?
+::: {style="font-size: 2.5em; color: #FFFFFF;"}
+Why is this important for data science education?
 :::
 
-##
+. . .
 
-<!-- Nolan & Temple-Lang's statistical computing framework is to data science education research what Deborah Ball's "egg" is to Mathematics Education research -->
+::: {style="font-size: 1.75em; color: #e28743;"}
+How can we distinguish merely interesting learning from effective learning [@wiggins]?
+:::
 
 ##  {background-color="#B6CADA"}
 
@@ -252,7 +317,6 @@ Investigating Power in the Classroom
 
 ::: columns
 ::: {.column width="60%"}
-
 :::
 
 ::: {.column width="5%"}
@@ -315,4 +379,5 @@ Questions?
 #| out-width: 50%
 knitr::include_graphics("images/conversation.jpg")
 ```
+
 ## References
