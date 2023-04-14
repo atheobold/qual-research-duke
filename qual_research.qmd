@@ -86,10 +86,11 @@ knitr::include_graphics("images/buchon.JPG")
 Land Acknowledgement
 :::
 
-
-Duhram sits on the territory of several Native nations, including the Tutelo and Saponi speaking peoples. We acknowledge, respect, and thank the tribes on whose stolen land we are guests. 
+::: {style="font-size: 0.75em;"}
+Duhram sits on the territory of several Native nations, including the Tutelo and Saponi speaking peoples. We acknowledge, respect, and thank the tribes on whose stolen land we are guests.
 
 Indigenous people are not relics of the past. We who work and live here must acknowledge past violence and ongoing harm produced by the ongoing effects of colonization.
+:::
 
 ##  {background-color="#B6CADA"}
 
@@ -239,20 +240,20 @@ How would you describe the action(s) being taken in this statement?
 
 ## 
 
-::: {style="font-size: 2.5em; color: #FFFFFF;"}
+::: {style="font-size: 2em; color: #FFFFFF;"}
 A framework for analyzing student's code
 :::
 
 ::: {style="font-size: 0.5em;"}
-|     | Text Surface    |   Program Execution   |   Function   |
-|:-----|-----|-----|-----|
-| **Macrostructure**    | Understanding the overall structure of the program    |   Understanding the "algorithm" of the program    | Understanding the goal / purpose of the program (in its context)    |
-| **Relations**   | References between blocks, e.g., method calls, object creation    | Sequence of method calls, object sequence diagrams   | Understanding how sub-goals are related to goals, how function is achieved by subfunctions    |
-| **Blocks**    | Regions of interest (ROI) that syntactically or semantically build a unit    |   Operation of a block, a method, or a ROI (as a sequence of statements)   |   Function of a block, may be seen as a sub-goal    |
-| **Atoms**   | Language elements   |   Operation of a statement    |   Function of a statement, only understandable in context   |
+|                    | Text Surface                                                              | Program Execution                                                      | Function                                                                                   |
+|:-------------------|------------------|------------------|------------------|
+| **Macrostructure** | Understanding the overall structure of the program                        | Understanding the "algorithm" of the program                           | Understanding the goal / purpose of the program (in its context)                           |
+| **Relations**      | References between blocks, e.g., method calls, object creation            | Sequence of method calls, object sequence diagrams                     | Understanding how sub-goals are related to goals, how function is achieved by subfunctions |
+| **Blocks**         | Regions of interest (ROI) that syntactically or semantically build a unit | Operation of a block, a method, or a ROI (as a sequence of statements) | Function of a block, may be seen as a sub-goal                                             |
+| **Atoms**          | Language elements                                                         | Operation of a statement                                               | Function of a statement, only understandable in context                                    |
 :::
 
-##
+## 
 
 ::: {style="font-size: 2.5em; color: #FFFFFF;"}
 Coding student's code
@@ -277,9 +278,8 @@ RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
 ::: {.column width="45%"}
 **Descriptive Code**
 
-::: {style="font-size: 0.95em;"}
+::: {style="font-size: 0.75em;"}
 > "Filters a vector of values using extraction operator, based on an equality relation with a variable selected from dataframe using `$` operator"
-
 :::
 :::
 
@@ -289,34 +289,61 @@ RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
 ::: {.column width="45%"}
 **In-vivo Code**
 
-::: {style="font-size: 0.95em;"}
-
+::: {style="font-size: 0.75em;"}
 > "Uses `[ ]` and `==` to filter vector, uses `$` to select variable"
-
 :::
-
 :::
 :::
 
 ## 
 
-::: {style="font-size: 2.5em; color: #FFFFFF;"}
+::: {style="font-size: 2em; color: #FFFFFF;"}
 How could this be used?
 :::
 
+::: columns
+::: {.column width="30%"}
+**Learning Trajectory**
 
-<!-- Nolan & Temple-Lang's statistical computing framework is to data science education research what Deborah Ball's "egg" is to Mathematics Education research -->
+::: {style="font-size: 0.75em;"}
+> How does a student's concept model of a dataset inform how they filter data?
+:::
+:::
 
+::: {.column width="2%"}
+:::
+
+::: {.column width="30%"}
+**Program Environment**
+
+::: {style="font-size: 0.75em;"}
+> How do the visualizations produced by students who learn ggplot differ from those who learn "base" R?
+:::
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="30%"}
+**Linguistic Structure**
+
+::: {style="font-size: 0.75em;"}
+> How do the "evocative names" given to tidyverse functions impact learners' mental models of what the function accomplishes?
+:::
+:::
+:::
 
 ## 
 
-::: {style="font-size: 2.5em; color: #FFFFFF;"}
+::: {style="font-size: 2em; color: #FFFFFF;"}
 Why is this important for data science education?
 :::
 
 . . .
 
-::: {style="font-size: 1.75em; color: #e28743;"}
+</br>
+
+::: {style="font-size: 1.5em; color: #e28743;"}
 How can we distinguish merely interesting learning from effective learning [@wiggins]?
 :::
 
@@ -349,18 +376,58 @@ Another Warm-up 🙃
 
 . . .
 
-::: {style="font-size: 1.25em; color: #FFFFFF;"}
-Read through the dialogue on the back page of the handout.
+Read through the dialogue on the back page of the handout. Cfonsider how students are using language to:
+
+-   Build community and / or collaboration
+-   Position (mathematical) thinking as significant
+
+## Discorse Analysis
+
+::: {style="font-size: 0.75em;"}
+> Discourse Analysis is the study of language (structure, form, and syntax) together with the study of "language-in-use... \[where we study\] language in terms of actual utterances or sentences in speech or writing in specific contexts of speaking and hearing or writing and reading... Discourse allows us to create and enact our identities" [@gee, p. 19-20].
 :::
 
-::: {style="font-size: 1.25em; color: #FFFFFF;"}
-While reading, consider how students are using language to:
+. . .
 
-- Build community and / or collaboration
-- Position (mathematical) thinking as significant
+::: {style="font-size: 1.25em;"}
+Language is used to build:
 :::
 
+::: columns
+::: {.column width="40%"}
+::: {style="font-size: 0.75em;"}
+-   Significance
+-   Practices - culturally supported activities
+-   Identities
+:::
+:::
 
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+::: {style="font-size: 0.75em;"}
+-   Relationships
+-   Politics
+-   Connections
+-   Sign Systems and Knowledge
+:::
+:::
+:::
+
+## How could this look?
+
+::: {style="font-size: 0.75em;"}
+> How do students use language and actions to (1) establish a collaborative environment, and (2) position each other's thinking as significant while working in small groups on mathematical problem-solving tasks?
+:::
+
+. . .
+
+```{r}
+#| out-width: 50%
+#| fig-align: center
+knitr::include_graphics("images/uma_codes.jpeg")
+```
 
 ## 
 
@@ -368,63 +435,28 @@ While reading, consider how students are using language to:
 "The more one talks and the less one listens, the more likely it is that one's viewpoint will function as if it were community consensus even if it is not" [@wordslut].
 :::
 
-## Discorse Analysis
+## 
 
-::: {style="font-size: 0.75em;"}
-> Discourse Analysis is the study of language (structure, form, and syntax) together with the study of “language-in-use… [where we study] language in terms of actual utterances or sentences in speech or writing in specific contexts of speaking and hearing or writing and reading… Discourse allows us to create and enact our identities” [@gee, p. 19-20].
-:::
+> "Fights over who gets to speak and whose words are recognized are indicative of power and status" (Johnson, 2002)
 
 </br>
 
-. . . 
+The Influence Framework [@engle2014]
 
-::: {style="font-size: 1.5em;"}
-Language is used to build:
-:::
-
-::: columns
-::: {.column width="40%"}
-- Significance
-- Practices - culturally supported activities
-- Identities
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="55%"}
-- Relationships
-- Politics
-- Connections
-- Sign Systems and Knowledge
-
-:::
-:::
-
-## How could this look?
-
+::: incremental
 ::: {style="font-size: 0.75em;"}
-> How do students use language and actions to (1) establish a collaborative environment, and (2) position each other's thinking as significant while working in small groups on mathematical problem-solving tasks? 
+-   the negotiated merit of each participant's arguments
+
+-   each participant's intellectual authority
+
+-   each participant's access to the conversational floor
+
+-   each participant's degree of spatial privilege
+:::
 :::
 
-. . .
+## A Discourse Scorecard
 
-```{r}
-#| out-width: 72%
-#| fig-align: center
-knitr::include_graphics("images/uma_codes.jpeg")
-```
-
-## 
-
-> "Fights over who gets to speak and whose words are recognized are indicative of power and status” (Johnson, 2002)
-
-
--   Influence framework perspective
-
-## 
-
--   promotions / demotions
 
 ##  {background-color="#B6CADA"}
 
@@ -432,8 +464,7 @@ knitr::include_graphics("images/uma_codes.jpeg")
 What can qualitative research teach us about oral exams?
 :::
 
-
-##
+## 
 
 [@theobold2021]
 
