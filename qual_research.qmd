@@ -80,6 +80,17 @@ knitr::include_graphics("images/buchon.JPG")
 :::
 :::
 
+## 
+
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Land Acknowledgement
+:::
+
+
+Duhram sits on the territory of several Native nations, including the Tutelo and Saponi speaking peoples. We acknowledge, respect, and thank the tribes on whose stolen land we are guests. 
+
+Indigenous people are not relics of the past. We who work and live here must acknowledge past violence and ongoing harm produced by the ongoing effects of colonization.
+
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 4em; color: #000000;"}
@@ -338,9 +349,18 @@ Another Warm-up 🙃
 
 . . .
 
-</br>
+::: {style="font-size: 1.25em; color: #FFFFFF;"}
+Read through the dialogue on the back page of the handout.
+:::
 
-Choose [**one**]{.underline} word that summarizes how *you* felt the last time you collaborated in a group.
+::: {style="font-size: 1.25em; color: #FFFFFF;"}
+While reading, consider how students are using language to:
+
+- Build community and / or collaboration
+- Position (mathematical) thinking as significant
+:::
+
+
 
 ## 
 
@@ -348,25 +368,74 @@ Choose [**one**]{.underline} word that summarizes how *you* felt the last time y
 "The more one talks and the less one listens, the more likely it is that one's viewpoint will function as if it were community consensus even if it is not" [@wordslut].
 :::
 
-## Example Student Conversation
-
 ## Discorse Analysis
 
--   Gee perspective
+::: {style="font-size: 0.75em;"}
+> Discourse Analysis is the study of language (structure, form, and syntax) together with the study of “language-in-use… [where we study] language in terms of actual utterances or sentences in speech or writing in specific contexts of speaking and hearing or writing and reading… Discourse allows us to create and enact our identities” [@gee, p. 19-20].
+:::
+
+</br>
+
+. . . 
+
+::: {style="font-size: 1.5em;"}
+Language is used to build:
+:::
+
+::: columns
+::: {.column width="40%"}
+- Significance
+- Practices - culturally supported activities
+- Identities
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+- Relationships
+- Politics
+- Connections
+- Sign Systems and Knowledge
+
+:::
+:::
+
+## How could this look?
+
+::: {style="font-size: 0.75em;"}
+> How do students use language and actions to (1) establish a collaborative environment, and (2) position each other's thinking as significant while working in small groups on mathematical problem-solving tasks? 
+:::
+
+. . .
+
+```{r}
+#| out-width: 72%
+#| fig-align: center
+knitr::include_graphics("images/uma_codes.jpeg")
+```
+
+## 
+
+> "Fights over who gets to speak and whose words are recognized are indicative of power and status” (Johnson, 2002)
+
 
 -   Influence framework perspective
 
-## How Methods can be used
-
--   verbs for actions[@theobold-discourse]
+## 
 
 -   promotions / demotions
 
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 3em; color: #000000;"}
-What can group work teach us about oral exams?[@theobold2021]
+What can qualitative research teach us about oral exams?
 :::
+
+
+##
+
+[@theobold2021]
 
 ## 
 
