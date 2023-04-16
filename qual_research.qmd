@@ -12,7 +12,7 @@ bibliography: references.bib
 ---
 
 ::: {style="font-size: 3em; color: #FFFFFF;"}
-Today's Layout
+Today's layout
 :::
 
 . . .
@@ -35,24 +35,9 @@ Today's Layout
 
 . . .
 
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="60%"}
+<center> 
 <http://bit.ly/qual-research-duke>
-:::
-
-::: {.column width="15%"}
-:::
-
-::: {.column width="20%"}
-```{r}
-#| out-width: 40%
-knitr::include_graphics("images/bitly_qr_code.jpeg")
-```
-:::
-:::
+</center>
 
 ## 
 
@@ -83,7 +68,7 @@ knitr::include_graphics("images/buchon.JPG")
 ## 
 
 ::: {style="font-size: 3em; color: #FFFFFF;"}
-Land Acknowledgement
+Land acknowledgement
 :::
 
 ::: {style="font-size: 0.75em;"}
@@ -95,7 +80,7 @@ Indigenous people are not relics of the past. We who work and live here must ack
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 4em; color: #000000;"}
-Qualitative Research
+Qualitative research
 :::
 
 ::: columns
@@ -192,7 +177,7 @@ Compares units of data to find common patterns across the data
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 3em; color: #000000;"}
-Investigating Student Learning through Code
+Investigating student learning through code
 :::
 
 ::: columns
@@ -234,7 +219,7 @@ RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
 
 </br>
 
-::: {style="font-size: 1.75em; color: #e28743;"}
+::: {style="font-size: 1.5em; color: #e28743;"}
 How would you describe the action(s) being taken in this statement?
 :::
 
@@ -276,7 +261,7 @@ RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
 
 ::: columns
 ::: {.column width="45%"}
-**Descriptive Code**
+**Descriptive code**
 
 ::: {style="font-size: 0.75em;"}
 > "Filters a vector of values using extraction operator, based on an equality relation with a variable selected from dataframe using `$` operator"
@@ -287,13 +272,121 @@ RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
 :::
 
 ::: {.column width="45%"}
-**In-vivo Code**
+**In-vivo code**
 
 ::: {style="font-size: 0.75em;"}
 > "Uses `[ ]` and `==` to filter vector, uses `$` to select variable"
 :::
 :::
 :::
+
+##
+
+::: {style="font-size: 2em; color: #FFFFFF;"}
+Uncovering emergent themes
+:::
+
+::: {style="font-size: 0.75em;"}
+```{r}
+#| eval: false
+#| echo: true
+#| code-line-numbers: false
+
+linearAnterior <- lm(PADataNoOutlier$Lipid ~ PADataNoOutlier$PSUA)
+
+early <- subset(RPMA2Growth, StockYear < 2006)	
+
+Weight5 <- mean(RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 5], na.rm = TRUE)
+
+gas <- gas[!(substr(gas$sampleID,3,3) %in% c("b","c")), ]	
+
+obsD <- subset(gas, gas$carboy == "D")$N15_N2_Ar
+
+lowerCIBound <- pMat[1:mlleIndex,1][which.min(abs(mlleCI+likelihoods[1:mlleIndex]))]
+```
+
+:::
+
+<!-- </br> -->
+
+::: columns
+::: {.column width="50%"}
+
+**Data wrangling**
+
+::: {style="font-size: 0.65em;"}
+
+> Statements of code whose purpose is to prepare a dataset for analysis and / or visualization
+
+:::
+
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="45%"}
+::: {style="font-size: 0.75em;"}
+
+**Sub-themes**
+
+- selecting variables
+- filtering observations
+- mutating variables
+:::
+
+:::
+:::
+
+## 
+
+::: {style="font-size: 2em; color: #FFFFFF;"}
+Practical considerations
+:::
+
+::: columns
+::: {.column width="40%"}
+**How much code should I collect?**
+
+::: {style="font-size: 0.75em;"}
+:::incremental
+- Driven by the research question! 
+  + Amount of each student's code
+  + Number of students 
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+**How do readers trust my analysis?**
+
+::: {style="font-size: 0.75em;"}
+:::incremental
+- Trust comes from: 
+  
+  + confirmability
+  + reliability
+  + credibility
+  + transferability
+:::
+:::
+
+:::
+:::
+
+. . .
+
+</br>
+Excellent resources: Creswell & Poth [-@creswell]; Merriam & Tisdell [-@merriam-tisdell]; Miles et al. [-@miles]
+
+
+<!-- researcher bias -->
+<!-- stable across researchers -->
+<!-- findings paint authentic portrait of data -->
+<!-- conclusions can be transferred to other contexts  -->
 
 ## 
 
@@ -302,35 +395,63 @@ How could this be used?
 :::
 
 ::: columns
-::: {.column width="30%"}
-**Learning Trajectory**
+::: {.column width="22%"}
+::: {style="font-size: 0.95em;"}
+**Concept dependence**
+:::
 
-::: {style="font-size: 0.75em;"}
+::: {style="font-size: 0.65em;"}
 > How does a student's concept model of a dataset inform how they filter data?
+
+(atoms; program execution)
 :::
 :::
 
 ::: {.column width="2%"}
 :::
 
-::: {.column width="30%"}
-**Program Environment**
+::: {.column width="22%"}
+::: {style="font-size: 0.95em;"}
+**Program environment**
+:::
 
-::: {style="font-size: 0.75em;"}
+::: {style="font-size: 0.65em;"}
 > How do the visualizations produced by students who learn ggplot differ from those who learn "base" R?
+
+(blocks; program execution)
+:::
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="22%"}
+::: {style="font-size: 0.95em;"}
+**Linguistic structure**
+:::
+
+::: {style="font-size: 0.65em;"}
+> How do students name objects they will use later?
+
+(relationships; text)
 :::
 :::
 
 ::: {.column width="2%"}
 :::
 
-::: {.column width="30%"}
-**Linguistic Structure**
+::: {.column width="22%"}
+::: {style="font-size: 0.95em;"}
+**Learning trajectory**
+:::
 
-::: {style="font-size: 0.75em;"}
-> How do the "evocative names" given to tidyverse functions impact learners' mental models of what the function accomplishes?
+::: {style="font-size: 0.65em;"}
+> How do students' exploratory data analyses change over the duration of a course?
+
+(macrostructure; function / purpose)
 :::
 :::
+
 :::
 
 ## 
@@ -350,7 +471,7 @@ How can we distinguish merely interesting learning from effective learning [@wig
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 3em; color: #000000;"}
-Investigating Power in the Classroom
+Investigating group collaborations 
 :::
 
 ::: columns
@@ -371,12 +492,14 @@ knitr::include_graphics("images/talking.png")
 ## 
 
 ::: {style="font-size: 3em; color: #FFFFFF;"}
-Another Warm-up 🙃
+Another Warm-up 😊
 :::
 
 . . .
 
-Read through the dialogue on the back page of the handout. Cfonsider how students are using language to:
+</br>
+
+Read through the dialogue on the back page of the handout. Consider how students are using language to:
 
 -   Build community and / or collaboration
 -   Position (mathematical) thinking as significant
@@ -384,7 +507,7 @@ Read through the dialogue on the back page of the handout. Cfonsider how student
 ## Discorse Analysis
 
 ::: {style="font-size: 0.75em;"}
-> Discourse Analysis is the study of language (structure, form, and syntax) together with the study of "language-in-use... \[where we study\] language in terms of actual utterances or sentences in speech or writing in specific contexts of speaking and hearing or writing and reading... Discourse allows us to create and enact our identities" [@gee, p. 19-20].
+> Discourse Analysis is the study of language (structure, form, and syntax). Paired with the study of language-in-use, discourse analysis allows us to study how language is used to create and enact identities [@gee].
 :::
 
 . . .
@@ -411,38 +534,47 @@ Language is used to build:
 -   Relationships
 -   Politics
 -   Connections
--   Sign Systems and Knowledge
+-   Sign systems and knowledge
 :::
 :::
 :::
 
-## How could this look?
+##
 
-::: {style="font-size: 0.75em;"}
-> How do students use language and actions to (1) establish a collaborative environment, and (2) position each other's thinking as significant while working in small groups on mathematical problem-solving tasks?
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Your turn!
 :::
 
 . . .
 
+This time consider if and how Uma’s language differs from Sean’s to accomplish the two building tasks:
+
+- Build collaboration for mathematics learning or problem solving
+
+- Establish mathematical significance. Whose thinking is being positioned as significant? By whom? How?
+
+
+## 
+
+::: {style="font-size: 3em; color: #FFFFFF;"}
+Results & Claims
+:::
+
 ```{r}
-#| out-width: 50%
+#| out-width: 95%
 #| fig-align: center
 knitr::include_graphics("images/uma_codes.jpeg")
 ```
 
 ## 
 
-::: {style="font-size: 1.75em; color: #e28743;"}
-"The more one talks and the less one listens, the more likely it is that one's viewpoint will function as if it were community consensus even if it is not" [@wordslut].
-:::
-
-## 
-
 > "Fights over who gets to speak and whose words are recognized are indicative of power and status" (Johnson, 2002)
+
+. . .
 
 </br>
 
-The Influence Framework [@engle2014]
+The Influence Framework Engle et al. [-@engle2014]
 
 ::: incremental
 ::: {style="font-size: 0.75em;"}
@@ -458,6 +590,24 @@ The Influence Framework [@engle2014]
 
 ## A Discourse Scorecard
 
+::: columns
+::: {.column width="40%"}
+**Proposal negotiation units (PNUs)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+Definition of a PNU
+:::
+:::
+
+. . .
+
+
+
+
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 3em; color: #000000;"}
@@ -466,7 +616,57 @@ What can qualitative research teach us about oral exams?
 
 ## 
 
-[@theobold2021]
+::: {style="font-size: 3em; color: #000000;"}
+Oral exams
+:::
+
+1. You are a qualitative researcher!
+
+2. You are **both** the tool for data collection **and** data analysis. 
+
+3. Your analysis must be trustworthy
+
+
+##
+
+::: {style="font-size: 3em; color: #000000;"}
+Collecting data
+:::
+
+::: incremental
+- How will you decide what questions to ask?
+
+<!-- easy entry but can progress quickly -->
+
+- How will you address the nature of how the data are collected?
+
+<!-- finding a comfortable space -->
+<!-- advice on how to handle anxiety -->
+
+<!-- how will you continue listening when someone doesn't articulate their thinking the way YOU would -->
+
+- How will you address your own positionality?
+
+<!-- your influence on the exam -->
+
+:::
+
+<!-- image on woman giving speech to men? -->
+
+##
+
+::: {style="font-size: 3em; color: #000000;"}
+Analyzing data
+:::
+
+::: incremental
+- How do you decide how "well" someone did?
+
+<!-- choosing categories -->
+<!-- deciding before hand what "belongs" in each category -->
+
+- How "stable" are your results?
+:::
 
 ## 
 
