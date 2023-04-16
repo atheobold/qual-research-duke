@@ -1,0 +1,63 @@
+---
+title: "Qualitative Methods for Research in Data Science Education"
+format: docx
+editor: visual
+bibliography: references.bib
+---
+
+## The Block Model [@schulte2008]
+
+|                    | Text Surface                                                              | Program Execution                                                      | Function                                                                                   |
+|:------------------|------------------|------------------|------------------|
+| **Macrostructure** | Understanding the overall structure of the program                        | Understanding the "algorithm" of the program                           | Understanding the goal / purpose of the program (in its context)                           |
+| **Relations**      | References between blocks, e.g., method calls, object creation            | Sequence of method calls, object sequence diagrams                     | Understanding how sub-goals are related to goals, how function is achieved by subfunctions |
+| **Blocks**         | Regions of interest (ROI) that syntactically or semantically build a unit | Operation of a block, a method, or a ROI (as a sequence of statements) | Function of a block, may be seen as a sub-goal                                             |
+| **Atoms**          | Language elements                                                         | Operation of a statement                                               | Function of a statement, only understandable in context                                    |
+
+## Student's Coding Process
+
+| Student A                                                                                              | Student B                                                                                                                                                                                    |
+|------------------------------------|------------------------------------|
+| `plot(EarlyLengthAge$meanLE∼EarlyLengthAge$Age, las = 1, ylab = “Fork Length (mm)”, xlab  = “Age”)`    | `plot(x = predictionTimesD,       y = prediction,       type = “l,       col = “blue”,       xlab = “”,       ylab = “”,       ylim = c(0, 0.08),       main = “Mesocosm D”,       las = 1)` |
+| `lines(EarlyLengthAge$meanLE∼EarlyLengthAge$Age)`                                                      | `points(timed, obsD, pch = 19)`                                                                                                                                                              |
+| `points(MidLengthAge$meanLM∼MidLengthAge$Age, col = "red")`                                            | `title(ylab = expression(paste("Tracer "^15, N[2], ":Ar")), line = 2.5, font.sub = 2)`                                                                                                       |
+| `lines(MidLengthAge$meanLM∼MidLengthAge$Age, col = "red")`                                             | `title(xlab = "Time (days)",       line = 2, font.sub = 2)`                                                                                                                                  |
+| `legend(15, 600, legend = c("1998-2003", "2006-2017"), col = c(“black”, “red”), lty = 1:1, cex = 0.8)` | `legend("bottomright",          legend = c("Modeled", "Measured"),          lty = c("solid", NA),          col = c("blue", "black"),         pch = c(NA, 19))`                               |
+
+## **Excerpt 1: Uma & Sean**
+
+|      |                                                                                                                                                                                |
+|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sean | So I kinda ran out of room here, but I just went 10^10^, 10^9^, 10^8^ (*points to the different eras on his paper, turning towards Uma*) and then will fit those within there. |
+| Uma  | Oh, ok! And then we\'ll fit them. Yeah.                                                                                                                                        |
+| Sean | Yeah.                                                                                                                                                                          |
+
+*The two work independently on their own papers. Both students can be heard narrating their work (5 seconds).*
+
+|      |                                                                                                                                                                 |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Uma  | (*turning to look at Sean\'s paper*) 10^6^                                                                                                                      |
+| Sean | Yep, 10^5^, and then I\'m going to start my line over here, I\'m actually going to extend it on-- (*continuing to work on his own paper*)                       |
+| Uma  | *(After working independently for 9 seconds, learning towards Sean to see his paper*) and then you\'re adding a little bit more? (*returning to her own paper*) |
+| Sean | Yeah (*continuing on his own paper*)                                                                                                                            |
+| Uma  | (*5 sec.*) Keeping the similar---                                                                                                                               |
+| Sean | Mhm (*affirming, 7 sec.*) Well, and that\'s turning into a scale that I recognize (*bobbing, smiling slightly, looking over his glasses to Uma*).               |
+| Uma  | Yeah, so then that\'s... it goes to 10^4^                                                                                                                       |
+| Sean | Mhm                                                                                                                                                             |
+| Uma  | and then that\'s going to be 10^3^, and then 10^2^ (*turning to look at Sean*)?                                                                                 |
+| Sean | Yep, and then I just went on out to--                                                                                                                           |
+| Uma  | 10^0^, yeah to make it easier (*4 sec.*). So then \"Now\" falls in at the zero mark, right? Right? Would that be where we have now?                             |
+| Sean | That\'s \"Now\", yep (*working on his own paper*)                                                                                                               |
+| Uma  | *(5 sec.*) And then 10^2^ is 100, right?                                                                                                                        |
+| Sean | Yeah, so you want to kinda like--- (*continuing to work on his own paper*)                                                                                      |
+| Uma  | so then you have--- (*working on her own paper*)                                                                                                                |
+| Sean | (*4 sec*) so if you want to like--- (*continuing to work on his one paper, 7 sec.*) so if we--- the difference from here is actually 900 years, right.          |
+| Uma  | Yeah, but then with each one the years are going to be more (*gesturing \"expanding\" with her hands*).                                                         |
+| Sean | Yep, yep (*nodding*).                                                                                                                                           |
+| Uma  | Yeah, that\'s what I was thinking. I was like--- because 500 is going to be, because this is 1000, so your 500 is kinda going to be like half-way, right?       |
+| Sean | Y-e-a-h (*with hesitation, watching Uma work on her paper briefly before returning to his paper*)                                                               |
+| Uma  | It should be like here, 500, and then this will be 1000 (*working on her own paper, 6 sec., thinking aloud*) 10^4^ right here.                                  |
+
+*The interaction ends with about 54 seconds of the two students working independently on their own papers. Uma occasionally narrates as she writes. Neither student acknowledges the other.*
+
+## References
