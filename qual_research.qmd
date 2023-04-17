@@ -35,9 +35,7 @@ Today's layout
 
 . . .
 
-<center> 
-<http://bit.ly/qual-research-duke>
-</center>
+<center><http://bit.ly/qual-research-duke></center>
 
 ## 
 
@@ -72,9 +70,9 @@ Land acknowledgement
 :::
 
 ::: {style="font-size: 0.75em;"}
-Duhram sits on the territory of several Native nations, including the Tutelo and Saponi speaking peoples. We acknowledge, respect, and thank the tribes on whose stolen land we are guests.
+The Research Triangle sits on the territory of several Native nations, including the Tutelo and Saponi speaking peoples. We acknowledge, respect, and thank the tribes on whose stolen land we are guests.
 
-Indigenous people are not relics of the past. We who work and live here must acknowledge past violence and ongoing harm produced by the ongoing effects of colonization.
+Indigenous people are not relics of the past. We who work and live here must acknowledge past violence and ongoing harm produced by the continued effects of colonization.
 :::
 
 ##  {background-color="#B6CADA"}
@@ -103,7 +101,7 @@ knitr::include_graphics("images/qual-research.png")
 "Qualitative researchers strive to *understand the meaning* people have constructed about their world and their experiences." [@merriam]
 :::
 
-</br> </br>
+</br>
 
 ::: {style="font-size: 1.25em; color: #abdbe3;"}
 "Qualitative research is an effort to understand situations in their uniqueness as part of a particular context and the interactions there. This understanding is an end in itself." [@patton]
@@ -280,7 +278,7 @@ RPMA2GrowthSub$Weight[RPMA2GrowthSub$Age == 1]
 :::
 :::
 
-##
+## 
 
 ::: {style="font-size: 2em; color: #FFFFFF;"}
 Uncovering emergent themes
@@ -304,22 +302,17 @@ obsD <- subset(gas, gas$carboy == "D")$N15_N2_Ar
 
 lowerCIBound <- pMat[1:mlleIndex,1][which.min(abs(mlleCI+likelihoods[1:mlleIndex]))]
 ```
-
 :::
 
 <!-- </br> -->
 
 ::: columns
 ::: {.column width="50%"}
-
 **Data wrangling**
 
 ::: {style="font-size: 0.65em;"}
-
 > Statements of code whose purpose is to prepare a dataset for analysis and / or visualization
-
 :::
-
 :::
 
 ::: {.column width="5%"}
@@ -327,15 +320,50 @@ lowerCIBound <- pMat[1:mlleIndex,1][which.min(abs(mlleCI+likelihoods[1:mlleIndex
 
 ::: {.column width="45%"}
 ::: {style="font-size: 0.75em;"}
-
 **Sub-themes**
 
-- selecting variables
-- filtering observations
-- mutating variables
+-   selecting variables
+-   filtering observations
+-   mutating variables
+:::
+:::
 :::
 
+## 
+
+::: {style="font-size: 2em; color: #FFFFFF;"}
+An alternative direction
 :::
+
+</br>
+
+::: columns
+::: {.column width="20%"}
+::: {style="font-size: 1.5em; color: #FFFFFF;"}
+Process coding:
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="75%"}
+::: {style="font-size: 0.75em; color: #FFFFFF;"}
+> uses gerunds ("-ing" words) to connote action in the data [@saldana]
+
+:::
+:::
+:::
+
+. . .
+
+</br>
+
+::: {style="font-size: 0.75em;"}
+- Particularly relevant to describing the processes of human actions
+  + can be "strategic, routine, random, novel, automatic, and / or thoughtful" [@corbin, p. 247]. 
+  
+- Can be intertwined with time, such that actions can emerge, change, or occur in particular sequences.
 :::
 
 ## 
@@ -345,14 +373,14 @@ Practical considerations
 :::
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="45%"}
 **How much code should I collect?**
 
 ::: {style="font-size: 0.75em;"}
-:::incremental
-- Driven by the research question! 
-  + Amount of each student's code
-  + Number of students 
+::: incremental
+-   Driven by the research question!
+    -   Amount of each student's code
+    -   Number of students
 :::
 :::
 :::
@@ -360,32 +388,32 @@ Practical considerations
 ::: {.column width="5%"}
 :::
 
-::: {.column width="55%"}
+::: {.column width="45%"}
 **How do readers trust my analysis?**
 
 ::: {style="font-size: 0.75em;"}
-:::incremental
-- Trust comes from: 
-  
-  + confirmability
-  + reliability
-  + credibility
-  + transferability
-:::
-:::
+::: incremental
+-   Trust comes from:
 
+    -   confirmability
+    -   reliability
+    -   credibility
+    -   transferability
+:::
+:::
 :::
 :::
 
 . . .
 
-</br>
-Excellent resources: Creswell & Poth [-@creswell]; Merriam & Tisdell [-@merriam-tisdell]; Miles et al. [-@miles]
-
+</br> Excellent resources: Creswell & Poth [-@creswell]; Merriam & Tisdell [-@merriam-tisdell]; Miles et al. [-@miles]
 
 <!-- researcher bias -->
+
 <!-- stable across researchers -->
+
 <!-- findings paint authentic portrait of data -->
+
 <!-- conclusions can be transferred to other contexts  -->
 
 ## 
@@ -451,7 +479,6 @@ How could this be used?
 (macrostructure; function / purpose)
 :::
 :::
-
 :::
 
 ## 
@@ -459,6 +486,7 @@ How could this be used?
 ::: {style="font-size: 2em; color: #FFFFFF;"}
 Why is this important for data science education?
 :::
+Theobold et al. [-@theobold-jsdse]
 
 . . .
 
@@ -471,7 +499,7 @@ How can we distinguish merely interesting learning from effective learning [@wig
 ##  {background-color="#B6CADA"}
 
 ::: {style="font-size: 3em; color: #000000;"}
-Investigating group collaborations 
+Investigating group collaborations
 :::
 
 ::: columns
@@ -492,25 +520,38 @@ knitr::include_graphics("images/talking.png")
 ## 
 
 ::: {style="font-size: 3em; color: #FFFFFF;"}
-Another Warm-up 😊
+Another warm-up 😊
 :::
 
 . . .
 
-</br>
+::: columns
+::: {.column width="60%"}
+:::
+
+::: {.column width="40%"}
+::: {style="color: #e28743; font-size: 1.5em"}
+(2-minutes)
+:::
+:::
+:::
 
 Read through the dialogue on the back page of the handout. Consider how students are using language to:
 
 -   Build community and / or collaboration
 -   Position (mathematical) thinking as significant
 
+
+
 ## Discorse Analysis
 
 ::: {style="font-size: 0.75em;"}
-> Discourse Analysis is the study of language (structure, form, and syntax). Paired with the study of language-in-use, discourse analysis allows us to study how language is used to create and enact identities [@gee].
+> is the study of language (structure, form, and syntax). Paired with the study of language-in-use, discourse analysis allows us to study how language is used to create and enact identities [@gee].
 :::
 
 . . .
+
+</br>
 
 ::: {style="font-size: 1.25em;"}
 Language is used to build:
@@ -539,20 +580,31 @@ Language is used to build:
 :::
 :::
 
-##
+## 
 
-::: {style="font-size: 3em; color: #FFFFFF;"}
-Your turn!
+::: {style="font-size: 2.5em; color: #e28743;"}
+Revisiting Uma & Sean
 :::
 
 . . .
 
-This time consider if and how Uma’s language differs from Sean’s to accomplish the two building tasks:
+</br>
 
-- Build collaboration for mathematics learning or problem solving
+::: {style="font-size: 0.85em;"}
+This time consider if and how Uma's language [differs]{style="color: #e28743;"} from Sean's to accomplish the two building tasks:
 
-- Establish mathematical significance. Whose thinking is being positioned as significant? By whom? How?
+-   Build collaboration for mathematics learning or problem solving. *How are collaborations being fostered or discouraged?*
 
+-   Establish mathematical significance. *Whose thinking is being positioned as significant? By whom? How?*
+:::
+
+<center>
+
+</br>
+
+::: {style="color: #76b5c5;"}
+Be prepared to share!
+:::
 
 ## 
 
@@ -566,6 +618,8 @@ Results & Claims
 knitr::include_graphics("images/uma_codes.jpeg")
 ```
 
+[@theobold-jrme]
+
 ## 
 
 > "Fights over who gets to speak and whose words are recognized are indicative of power and status" (Johnson, 2002)
@@ -578,35 +632,45 @@ The Influence Framework Engle et al. [-@engle2014]
 
 ::: incremental
 ::: {style="font-size: 0.75em;"}
--   the negotiated merit of each participant's arguments
+- treated as a credible source of information
 
--   each participant's intellectual authority
+- ideas are positioned as high / low quality
 
--   each participant's access to the conversational floor
+- access to the conversational floor
 
--   each participant's degree of spatial privilege
+- degree of spatial privilege
 :::
 :::
 
 ## A Discourse Scorecard
 
 ::: columns
-::: {.column width="40%"}
-**Proposal negotiation units (PNUs)
+::: {.column width="20%"}
+**Proposal negotiation units (PNUs)**
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="55%"}
-Definition of a PNU
+::: {.column width="75%"}
+::: {style="font-size: 0.75em;"}
+> begin when one group member makes a proposal bid for pursuing a mathematical approach or posing a directive to other group members
+:::
 :::
 :::
 
 . . .
 
+</br>
 
+::: {style="font-size: 0.75em;"}
 
+|         | Intellectual Merit | Intellectual Authority | Directive Authority | Influence |
+|:--------|:-----------:|:----------:|:------:|-------:|
+| Uma     | 6 (13)      | 19 (38)    | 0 (2)  |  0     |
+| Sean    | 38 (12)     | 47 (10)    | 4 (0)  |  4     |
+
+:::
 
 ##  {background-color="#B6CADA"}
 
@@ -616,56 +680,61 @@ What can qualitative research teach us about oral exams?
 
 ## 
 
-::: {style="font-size: 3em; color: #000000;"}
-Oral exams
+::: {style="font-size: 3em; color: #abdbe3;"}
+Oral exams 
+:::
+[@theobold-oral]
+
+</br>
+
+::: incremental
+1.  You are a qualitative researcher!
+
+2.  You are *both* the tool for data collection *and* data analysis.
+
+3.  Your analysis must be trustworthy
 :::
 
-1. You are a qualitative researcher!
+## 
 
-2. You are **both** the tool for data collection **and** data analysis. 
-
-3. Your analysis must be trustworthy
-
-
-##
-
-::: {style="font-size: 3em; color: #000000;"}
+::: {style="font-size: 3em; color: #FFFFFF;"}
 Collecting data
 :::
 
 ::: incremental
-- How will you decide what questions to ask?
+-   How will you decide what questions to ask?
 
 <!-- easy entry but can progress quickly -->
 
-- How will you address the nature of how the data are collected?
+-   How will you address the nature of how the data are collected?
 
 <!-- finding a comfortable space -->
+
 <!-- advice on how to handle anxiety -->
 
 <!-- how will you continue listening when someone doesn't articulate their thinking the way YOU would -->
 
-- How will you address your own positionality?
+-   How will you address your own positionality?
 
 <!-- your influence on the exam -->
-
 :::
 
 <!-- image on woman giving speech to men? -->
 
-##
+## 
 
-::: {style="font-size: 3em; color: #000000;"}
+::: {style="font-size: 3em; color: #FFFFFF;"}
 Analyzing data
 :::
 
 ::: incremental
-- How do you decide how "well" someone did?
+-   How do you decide how "well" someone did?
 
 <!-- choosing categories -->
+
 <!-- deciding before hand what "belongs" in each category -->
 
-- How "stable" are your results?
+-   How "stable" are your results?
 :::
 
 ## 
