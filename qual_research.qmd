@@ -168,7 +168,7 @@ Major sources of data -- interviews, observations, documents
 
 <!-- Simultaneous with data collection! -->
 
-Compares units of data to find common patterns across the data
+Compare units of data to find common patterns across the data
 :::
 :::
 
